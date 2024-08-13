@@ -13,8 +13,8 @@ public class Android implements IDevices {
         DesiredCapabilities config = new DesiredCapabilities();
         config.setCapability("appium:deviceName", "Pixel XL API 9");
         config.setCapability("appium:platformVersion", "9.0");
-        config.setCapability("appium:appPackage", "com.vrproductiveapps.whendo");
-        config.setCapability("appium:appActivity", "com.vrproductiveapps.whendo.ui.HomeActivity");
+        config.setCapability("appium:appPackage", "com.google.android.deskclock");
+        config.setCapability("appium:appActivity", "com.android.deskclock.DeskClock");
         config.setCapability("platformName", "Android");
         config.setCapability("appium:automationName", "uiautomator2");
         AndroidDriver driver = null;
